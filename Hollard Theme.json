@@ -1,0 +1,376 @@
+{
+  "name": "Hollard Theme",
+  "dataColors": [
+    "#442359",
+    "#E64E00",
+    "#44B4A6",
+    "#A58B3F"
+  ],
+  "visualStyles": {
+    "lineChart": {
+      "*": {
+        "lineStyles": [
+          {
+            "strokeWidth": 1
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontSize": 8,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "grid": [
+          {
+            "textSize": 8
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [
+          {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": 8
+          }
+        ],
+        "total": [
+          {
+            "fontSize": 8
+          }
+        ],
+        "rowTotal": [
+          {
+            "fontSize": 8
+          }
+        ],
+        "subTotals": [
+          {
+            "fontSize": 8
+          }
+        ],
+        "values": [
+          {
+            "fontSize": 8,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "labels": [
+          {
+            "fontFamily": "Segoe UI",
+            "labelDisplayUnits": 0,
+            "fontSize": 8
+          }
+        ],
+        "dataPoint": [
+          {
+            "defaultColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "title": [
+          {
+            "alignment": "center",
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 5,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false,
+            "titleFontSize": 8
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "dataPoint": [
+          {
+            "defaultColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "labelDisplayUnits": 0,
+            "fontFamily": "Segoe UI",
+            "fontSize": 8
+          }
+        ],
+        "title": [
+          {
+            "alignment": "center",
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "dataPoint": [
+          {
+            "defaultColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 6,
+            "labelDisplayUnits": 0,
+            "fontFamily": "Segoe UI",
+            "labelPosition": "OutsideEnd"
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "title": [
+          {
+            "alignment": "center",
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "title": [
+          {
+            "alignment": "center",
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "labels": [
+          {
+            "labelDisplayUnits": 0,
+            "fontFamily": "Segoe UI",
+            "labelPosition": "OutsideEnd"
+          }
+        ],
+        "dataPoint": [
+          {
+            "defaultColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedColumnChart": {
+      "*": {
+        "labels": [
+          {
+            "labelPosition": "OutsideEnd"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "dataPoint": [
+          {
+            "defaultColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI"
+    },
+    "label": {
+      "fontFace": "Segoe UI"
+    },
+    "callout": {
+      "fontFace": "Segoe UI"
+    }
+  }
+}
